@@ -1,0 +1,42 @@
+body {
+    background-color: blue;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; 
+
+}
+
+.animes, .doramas, .series {
+    flex: 0 0 340px;
+    margin-bottom: 50px;
+    transition: 1.3s;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.animes:hover, .doramas:hover, .series:hover {
+    transform: scale(0.8);
+    opacity: 0.8;
+}
+
+.animes a, .doramas a, .series a  {
+    text-decoration: none;
+}
+
+img {
+    border-radius: 20px;
+}
+
+h2 {
+    color: white;
+}
