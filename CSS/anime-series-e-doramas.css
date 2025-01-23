@@ -45,7 +45,13 @@ main {
 }
 
 .animes:hover, .doramas:hover, .series:hover {
-    transform: scale(1.1);
+    transform: scale(0.9);
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 img {
